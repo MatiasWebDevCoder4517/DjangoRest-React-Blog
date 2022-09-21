@@ -75,7 +75,10 @@ class DeletePost(generics.RetrieveDestroyAPIView):
     queryset = Post.objects.all()
 
 
-""" Concrete View Classes
+""" 
+** DJANGO REST FRAMEWORK USEFUL FEATURES **
+
+Concrete View Classes
 # CreateAPIView
 Used for create-only endpoints.
 # ListAPIView
